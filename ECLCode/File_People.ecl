@@ -9,5 +9,5 @@ EXPORT Layout := RECORD
   STRING1   gender;
   STRING8   birthdate;
   END;
-EXPORT File := DATASET('~ODSCWest::People',Layout,THOR);
+EXPORT File := DATASET('~RDS::People',Layout,THOR);
 END;

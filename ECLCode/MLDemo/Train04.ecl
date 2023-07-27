@@ -1,4 +1,6 @@
-﻿IMPORT ML_Core.Discretize;
+﻿//This is an example on what NOT to do with this ML model.
+//Classification is the wrong model for price prediction and the result will show this.
+IMPORT ML_Core.Discretize;
 IMPORT ML_Core;
 IMPORT LearningTrees AS LT;
 IMPORT $;

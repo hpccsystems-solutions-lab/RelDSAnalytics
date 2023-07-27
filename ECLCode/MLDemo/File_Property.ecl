@@ -22,7 +22,7 @@ EXPORT Layout := RECORD
    UNSIGNED2 half_baths;
    UNSIGNED2 year_built;
   END;
-EXPORT File := DATASET('~odscwest::property',Layout,THOR);
+EXPORT File := DATASET('~RDS::property',Layout,THOR);
 
 EXPORT MLProp := RECORD
    UNSIGNED8 PropertyID;
